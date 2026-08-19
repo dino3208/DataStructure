@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Array/Array.vcxproj" Id="caaa5144-a94a-4e6b-87fa-741b206cf7ca">
+    <Build Solution="*|x86" Project="false" />
+  </Project>
+  <Project Path="List/List.vcxproj" Id="f510194c-6a23-45aa-ab8c-4d8ade34deac">
+    <Build Solution="*|x86" Project="false" />
+  </Project>
+</Solution>

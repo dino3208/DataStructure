@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\Workspace\\0728\\DataStructure\\Intermediates\\Debug\\List.obj",
+            "outputs": [
+                "C:\\Workspace\\0728\\DataStructure\\Intermediates\\Debug\\List.h.obj.dt.module.json",
+                "C:\\Workspace\\0728\\DataStructure\\Intermediates\\Debug\\List.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
