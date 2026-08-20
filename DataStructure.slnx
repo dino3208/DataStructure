@@ -9,4 +9,7 @@
   <Project Path="List/List.vcxproj" Id="f510194c-6a23-45aa-ab8c-4d8ade34deac">
     <Build Solution="*|x86" Project="false" />
   </Project>
+  <Project Path="SingleLinkedList/SingleLinkedList.vcxproj" Id="02bc58ed-b747-421d-bb12-226f5a5b1662">
+    <Build Solution="*|x86" Project="false" />
+  </Project>
 </Solution>
