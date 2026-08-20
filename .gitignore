@@ -5,3 +5,16 @@ Debug/
 Release/
 *.user
 *.suo
+
+# 빌드 중간 산출물 및 임시 파일 제외 (추가)
+*.obj
+*.o
+*.tlog
+*.log
+*.idb
+*.pdb
+*.ilk
+*.pch
+*.ipch
+*.db
+*.opendb
