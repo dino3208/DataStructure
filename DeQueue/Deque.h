@@ -145,7 +145,7 @@ public:
 	bool IsEmpty() const { return front == rear; }
 
 	// 가득 찼는지 확인하는 함수
-	bool IsFull() const { return (rear + 1)& bufferSize == front; }
+	bool IsFull() const { return (rear + 1)% bufferSize == front; }
 
 	// 저장 용량 반환 함수
 	int Capacity() const { return capacity; }
@@ -153,7 +153,7 @@ public:
 	// 저장된 데이터 수 반환 함수
 	int Count() const
 	{
-		return (rear - front + bufferSize) & bufferSize;
+		return (rear - front + bufferSize) % bufferSize;
 	}
 
 private:
