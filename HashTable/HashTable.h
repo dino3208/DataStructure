@@ -61,7 +61,7 @@ private:
 	// 소수(Prime Number)로 하는 게 좋고, 가능하면 큰 수를 하는 게 좋음
 	static const int bucketCount = 19;
 
-	// 각 버킷에 연결된 첫 번째 Entry 주소
+	// 각 버킷에 연결된 첫 번째 Entry 주소 // Todo: 스마트 포인터로 바꿔보기
 	Entry* table[bucketCount] = {};
 
 	// 저장된 키와 값의 수
