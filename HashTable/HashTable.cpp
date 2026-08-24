@@ -106,7 +106,7 @@ bool HashTable::Delete(const std::string& key)
 
     // 데이터 수 감소 처리
     --count;
-    return false;
+    return true;
 }
 
 bool HashTable::Find(const std::string& key, std::string& outValue) const
