@@ -169,7 +169,7 @@ public:
 private:
 
 	// 중위 순회 재귀 함수
-	void InorderRecursive(Node<T>* node, const T& data, bool& deleted)
+	void InorderRecursive(Node<T>* node) const
 	{
 		// 종료 조건
 		if (!node)
@@ -200,7 +200,7 @@ private:
 		// 찾는 노드가 현재 노드보다 작으면 왼쪽으로
 		if (data < node->data)
 		{
-			node->left = RemoveRecursive(node->left, data, delete);
+			node->left = RemoveRecursive(node->left, data, deleted);
 		}
 		// 찾는 노드가 현재 노드보다 크면 오른쪽으로
 		else if (node->data < data)
@@ -217,7 +217,7 @@ private:
 			if (!node->left)
 			{
 				// 오른쪽 자손이 삭제 노드 위치를 대체
-				NODE<T>* rightChild = node->right;
+				Node<T>* rightChild = node->right;
 
 				// 재귀적으로 삭제를 방지하기 위해 null 대입
 				node->right = nullptr;
